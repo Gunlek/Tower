@@ -1,0 +1,12 @@
+author: Gunlek
+version: 1.0
+name: Tower
+website: http://simple-duino.com
+main: com.simpleduino.tower.TowerPlugin
+commands:
+  tower:
+    description: Access all tower's commands
+    aliases: [tw, tower]
+  teamchat:
+      description: enable/disable team chat for tower
+      aliases: [tc, teamchat]
